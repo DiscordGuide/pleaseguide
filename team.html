@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Discord Guides</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/normal.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" href="assets/discord-logo-blue-png.png" />
+</head>
+
+<body class="is-discord">
+    <nav class="nav">
+        <a href="index.html">
+            <div class="logo-container">
+                <div class="logo-class">
+                    <img src="assets/custom-logo.png" class="guide-logo">
+                </div>
+            </div>
+        </a>
+        <div class="centered">
+            <div class="nav-projects">
+                <a class="nav-project nav-project-discord" href="index.html">
+                     Home
+                     <br/>Page
+                </a>
+                <a class="nav-project nav-project-discord-pservers" href="network.html">
+                     Our
+                    <br/>Network
+                </a>
+            </div>
+            <div class="nav-pages">
+
+                <a href="/team.html">The Team</a>
+
+                <a href="https://facebook.com/pleaseguideus">Facebook</a>
+
+                <a href="https://twitter.com/pleaseguideus">Twitter</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero hero-discord-bodyy">
+        <div class="centered">
+            <div class="hero-title">
+                <h1>The Team</h1>
+                <h2>All the people who make this happen!</h2>
+            </div>
+        </div>
+    </header>
+        <div class="staff-builds">
+            <div class="row center">
+                <div class="large-12 small-12 columns small-centered">
+                    <section class="headline">
+                        <h2>Administrative Office</h2>
+                        <h5 class="subheader">
+             The idiots who run this project.
+           </h5>
+                        <h2>Public Relations</h2>
+                        <h5 class="subheader">
+             All the people with coffee mugs and banners who try to spread our propoganda.
+           </h5>
+                        <h2>Media Team</h2>
+                        <h5 class="subheader">
+             Everyone with a pencil in their hand, and ink on their arms making the propoganda to spread.
+           </h5>
+                    </section>
+                </div>
+            </div>
+    </div>
+    
+<footer>
+        <p>Registered trademarks not claimed as our property; Site is for assistance with existing labels.</p>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" staff-tab-active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " staff-tab-active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
+</html>

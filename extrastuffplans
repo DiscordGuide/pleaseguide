@@ -1,0 +1,12 @@
+<footer>
+            <ul class="list-inline">
+        <p>Registered trademarks not claimed as our property; Site is for assistance with existing labels.</p>
+        <li>
+        <a href="https://pleaseguide.us/"><img class="img-responsive" src="assets/watermark.jpg"></a>
+        </li>
+            </ul>
+</footer>
+
+                <ul class="tab">
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Administration')" id="defaultOpen">Administration</a></li>
+                </ul>
